@@ -4,11 +4,15 @@
 
 Aplicación que encripta textos, permite intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
+### Deployed: https://barviz.github.io/encriptadorApp/
+
+![encriptador](https://user-images.githubusercontent.com/96797843/183551410-64847fa8-ffd6-4478-837d-9ba5d5f5058a.png)
+
 Las "llaves" de encriptación son las siguientes:
 
+* La letra "a" es convertida para "ai"
 * La letra "e" es convertida para "enter"
 * La letra "i" es convertida para "imes"
-* La letra "a" es convertida para "ai"
 * La letra "o" es convertida para "ober"
 * La letra "u" es convertida para "ufat"
 
@@ -24,3 +28,5 @@ Por ejemplo:
 
 La página tiene campos para inserción del texto que será encriptado o desencriptado, y el usuario puede escoger entre las dos opciones.
 El resultado se muestra en la pantalla.
+
+
