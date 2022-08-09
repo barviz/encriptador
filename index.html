@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="icon" type="image/png" href="img/logo-icon-alura.png">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <div class="containerBody">
+        <header class="encabezado">
+            <div class="logo">
+                <img src="img/logo-alura.png" alt="Logo Alura">
+            </div>
+            <div class="titulo">
+                <h1>Encriptador</h1>
+            </div>
+        </header>
+        <main class="containerMain">
+            <section>
+                <div class="containerIzq">
+                    <textarea type="text" id="areaIzq" class="areaIzq" name="areaIzq"
+                        placeholder="Ingrese el texto aquí" required></textarea>
+                    <p class="subtextoIzq">Solo letras minúsculas y sin acentos
+                    </p>
+                    <div class="containerBotones">
+                        <button id="btnEncriptar" class="btnEncriptar hover" type="submit">Encriptar</button>
+                        <button id="btnLimpiar" class="btnLimpiar hover" type="submit">Limpiar</button>
+                        <button id="btnDesencriptar" class="btnDesencriptar hover" type="submit">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <textarea class="areaDer" id="areaDer" type="text" name="areaDer"
+                placeholder="Aquí verá el resultado" readonly></textarea>
+                <p id="subtextoDer" class="subtextoDer">No hay datos encriptados.</p>
+                <button id="btnCopiar" class="btnCopiar hover" type="submit" name="Copiar">Copiar</button>
+            </aside>
+        </main>
+        <footer>
+            <div class="creador">
+                <p>©2022 Bárbara Vizgarra</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/funciones.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
